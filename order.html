@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order - Etherial Eatz</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ethereal Eatz</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./aboutuspage.html">About Us</a></li>
+        <li><a href="./freshproduct.html">Fresh Products</a></li>
+        <li><a href="./diary.html">Diary</a></li>
+        <li><a href="./cosmetics.html">Cosmetics</a></li>
+        <li><a href="./loyalty.html">Loyalty</a></li>
+        <li><a href="./order.html">Order</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="order">
+    <h2><center>Order Summary</center></h2>
+    <div class="cart">
+      <h3>Shopping Cart</h3>
+      <ul id="cart-items">
+       
+      </ul>
+    </div>
+    <div class="checkout">
+      <h3>Total: <span id="total-price">Rs.0.00</span></h3>
+      <button onclick="checkout()">Checkout</button>
+    </div>
+  </section>
+
+  <section class="loyalty">
+    <h2><center>Payment Information</center></h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Card Number:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="Address">CVV:</label>
+      <input type="number" id="Address" name="Address" required><br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+          <h2>Ethereal Eatz</h2>
+      </div>
+      <div class="footer-branches">
+          <h3>Branches</h3>
+          <ul>
+              <li>Colombo</li>
+              <li>Kandy</li>
+              <li>Galle</li>
+              <h3>Contact Us</h3>
+              <li>011-294 533 9348</li>
+          </ul>
+      </div>
+      <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+              <li><a href="homepage.html">Home</a></li>
+              <li><a href="aboutuspage.html">About Us</a></li>
+              <li><a href="freshproduct.html">Fresh Products</a></li>
+              <li><a href="diary.html">Dairy</a></li>
+              <li><a href="cosmetics.html">Cosmetics</a></li>
+              <li><a href="loyalty.html">Loyalty</a></li>
+              <li><a href="order.html">Order</a></li>
+          </ul>
+      </div>
+  </div>
+    <p>&copy; 2024 Etherial Eatz. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
